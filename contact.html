@@ -1,53 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-</head>
-<header><div class="navbar">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+
+    <title>
+        TipToe Soles | Contact Us
+    </title>
+    <link rel="icon" type="image/png" href="../ASSETS/images/tiptoelogo.png">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="topbar">
+
+        <div class="left">
             <div class="logo">
-                <a href="index.html" aria-label="TipToe Soles Home">
-                    <img src="tiptoelogo.png" alt="TipToe Soles Logo">
+                <a href="index.html">
+                    <img src="../ASSETS/images/tiptoelogo.png" alt="TipToe Soles Logo">
                 </a>
             </div>
 
-            <div class="logotext">
-                <a href="index.html" aria-label="TipToe Soles Home"><h1>TipToe Soles</h1></a>
-            </div>
+        <div class="logotext">
+            <a href="index.html"><h1>TipToe Soles</h1></a>
+        </div>
+    </div>
+    <div class="midbar">
+        <div class="search-container">
+            <form class="search">
+                <input type="text" placeholder="Search">
+                <button type="submit">
+                    <i class="fa fa-search"></i>
+                </button>
+            </form>
+        </div>
+        
+    </div>
+    <div class="cart">
+            <a href="cart.html" class="cart-button">
+                <i class="fa fa-shopping-cart"></i>
+                <span>Cart</span>
+            </a>
+        </div>
+</div>
 
-            <form id="searchForm" class="search-form" aria-label="Site search">
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="men.html">Men</a></li>
+            <li><a href="women.html">Women</a></li>
+            <li><a href="new.html">New</a></li>
+            <li><a href="sale.html">Sale</a></li>
+            <li><a href="contact.html" class="active">Contact Us</a></li>
+            <li><a href="Wishlist.html">Wishlist</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+            
+        </nav>
+        <nav class="breadcrumb">
+        <h3><a href="index.html">Home</a> >
+        <span>Contact Us</span></h3>
+    </nav>
+    </header>
 
-                <input id="searchInput"
-                       type="search"
-                       placeholder="Search TipToe Soles..."
-                       aria-label="Search TipToe Soles">
+    <main>
+        <!--Should I add?
 
-                <button type="submit">Search</button>
+        <section id="searchResults" class="search-results">
+            <p class="search-hint">
+                Type a keyword and press Search to find pages on the site.
+            </p>
+        </section>
+        -->
+        <section class="contact-page">
 
+        <div class="contact-header">
+            <h1>Get in Touch</h1>
+            <p>Got a question, suggestion, or just wanna talk shoes? We’re here for it.</p>
+        </div>
+
+        <div class="contact-container">
+
+            <!-- Contact Form -->
+            <form class="contact-form">
+                <label>Name</label>
+                <input type="text" placeholder="Your name" required>
+
+                <label>Email</label>
+                <input type="email" placeholder="Your email" required>
+
+                <label>Message</label>
+                <textarea rows="6" placeholder="Write your message..." required></textarea>
+
+                <button type="submit" class="button">Kick it to Us</button>
             </form>
 
-            <button class="menu-toggle">
-                <svg xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    fill="currentColor"
-                    class="bi bi-list"
-                    viewBox="0 0 16 16">
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <h2>Other ways to reach us</h2>
 
-                    <path fill-rule="evenodd"
-                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
-                </svg>
-            </button>
-            
-            <div class="subnavbar">
-                <a href="products.html">Products</a>
-                <a href="aboutus.html">About Us</a>
-                <a href="contact.html">Contact</a>
+                <p>📧 Email: support@tiptoesoles.com</p>
+                <p>📞 Phone: (02) 1234 5678</p>
+                <p>📍 Location: Sydney, Australia</p>
+
+                <div class="socials">
+                    <p>Follow us:</p>
+                    <a href="#">Instagram</a>
+                    <a href="#">TikTok</a>
+                    <a href="#">Facebook</a>
+                </div>
             </div>
-        
-        </div></header>
+
+        </div>
+
+    </section>
+    </main>
+
+    <footer>
+
+    <div class="footer-container">
+
+        <div class="footer-section">
+            <a href="index.html"><h3>TipToe Soles</h3></a>
+            <p>Comfort Redefined.</p>
+            <p>Quality footwear built for every journey.</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <a href="products.html">Products</a>
+            <a href="men.html">Men</a>
+            <a href="women.html">Women</a>
+            <a href="sale.html">Sale</a>
+        </div>
+
+        <div class="footer-section">
+            <h3>Customer Service</h3>
+            <a href="contact.html">Contact Us</a>
+            <a href="#">Returns Policy</a>
+            <a href="#">Shipping Information</a>
+        </div>
+
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+
+            <a href="#">
+                <i class="fa fa-instagram"></i> Instagram
+            </a>
+
+            <a href="#">
+                <i class="fa fa-facebook"></i> Facebook
+            </a>
+
+            <a href="#">
+                <i class="fa fa-twitter"></i> X / Twitter
+            </a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 TipToe Soles. All rights reserved.</p>
+    </div>
+
+</footer>
 </body>
+
+    
 </html>
