@@ -1,65 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="style.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
-</head>
-<body>
-        <header>
-        <div class="navbar">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+
+    <title>
+        TipToe Soles | About Us
+    </title>
+    <link rel="icon" type="image/png" href="../ASSETS/images/tiptoelogo.png">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="topbar">
+
+        <div class="left">
             <div class="logo">
-                <a href="index.html" aria-label="TipToe Soles Home">
-                    <img src="tiptoelogo.png" alt="TipToe Soles Logo">
+                <a href="index.html">
+                    <img src="../ASSETS/images/tiptoelogo.png" alt="TipToe Soles Logo">
                 </a>
             </div>
 
-            <div class="logotext">
-                <a href="index.html" aria-label="TipToe Soles Home"><h1>TipToe Soles</h1></a>
-            </div>
-
-            <form id="searchForm" class="search-form" aria-label="Site search">
-
-                <input id="searchInput"
-                       type="search"
-                       placeholder="Search TipToe Soles..."
-                       aria-label="Search TipToe Soles">
-
-                <button type="submit">Search</button>
-
-            </form>
-
-            <button class="menu-toggle">
-                <svg xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    fill="currentColor"
-                    class="bi bi-list"
-                    viewBox="0 0 16 16">
-
-                    <path fill-rule="evenodd"
-                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
-                </svg>
-            </button>
-            
-            <div class="subnavbar">
-                <a href="products.html">Products</a>
-                <a href="aboutus.html">About Us</a>
-                <a href="contact.html">Contact</a>
-            </div>
-        
+        <div class="logotext">
+            <a href="index.html"><h1>TipToe Soles</h1></a>
         </div>
+    </div>
+    <div class="midbar">
+        <div class="search-container">
+            <form class="search">
+                <input type="text" placeholder="Search">
+                <button type="submit">
+                    <i class="fa fa-search"></i>
+                </button>
+            </form>
+        </div>
+        
+    </div>
+    <div class="cart">
+            <a href="cart.html" class="cart-button">
+                <i class="fa fa-shopping-cart"></i>
+                <span>Cart</span>
+            </a>
+        </div>
+</div>
+
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="men.html">Men</a></li>
+            <li><a href="women.html">Women</a></li>
+            <li><a href="new.html">New</a></li>
+            <li><a href="sale.html">Sale</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="Wishlist.html">Wishlist</a></li>
+            <li><a href="aboutus.html" class="active">About Us</a></li>
+            </ul>
+    
+        </nav>
+    <nav class="breadcrumb">
+        <h3><a href="index.html">Home</a> >
+        <span>About Us</span></h3>
+    </nav>
     </header>
 
     <main>
-        <section>
-            <h1>About Us</h1>
-            <p>Thanks for taking the time in getting to know more about us!</p>
-            <p>We are a team of passionate individuals dedicated to providing the best footwear solutions for our customers.</p>
-            <p>Click the top left logo to return to the homepage.</p>
+        <section class="about-hero">
+            <h1>About TipToe Soles</h1>
+            <p>Comfort, quality, and affordability in every step.</p>
         </section>
+        <section class="aboutus-section">
+            <h1>About TipToe Soles</h1>
+
+            <p>At TipToe Soles, we believe that quality footwear should be comfortable, stylish, and affordable for everyone. Based in Sydney, Australia, we have years of experience manufacturing footwear and supplying products to established brands around the world.</p>
+            <p>Today, we are proud to introduce our own brand, bringing the same commitment to quality and craftsmanship directly to our customers.
+            Whether you're heading to work, running errands, or enjoying a casual day out, our footwear is designed to provide lasting comfort and support throughout your day.</p>
+            <p>Our vision is to become Australia's trusted footwear brand and to deliver comfortable, affordable shoes to customers around the world. Every pair is carefully designed with quality materials, practical functionality, and modern style in mind.</p>
+            <p>At TipToe Soles, customer satisfaction is at the heart of everything we do. We are committed to providing reliable products, excellent service, and an easy online shopping experience for every customer.</p>
+            <p><strong>Comfort Redefined.</strong></p>
+        </section>
+        <section class="about-content">
+            <div class="about-card">
+                <h2>Our Story</h2>
+
+                <p>
+                    Based in Sydney, Australia, TipToe Soles has years of experience
+                    manufacturing quality footwear for brands around the world.
+                    Today, we proudly offer our own collection designed for comfort,
+                    style, and affordability.
+                </p>
+            </div>
+        </section>
+        <section class="mission-vision">
+
+    <div class="info-card">
+        <h2>Our Mission</h2>
+        <p>
+            To provide affordable footwear without compromising comfort or quality.
+        </p>
+    </div>
+
+    <div class="info-card">
+        <h2>Our Vision</h2>
+        <p>
+            To become Australia's trusted everyday footwear brand.
+        </p>
+    </div>
+
+</section>
+<section class="why-us">
+
+    <h2>Why Choose TipToe Soles?</h2>
+
+    <div class="benefits">
+
+        <div class="benefit">
+            <h3>👟 Comfort</h3>
+            <p>Designed for all-day wear.</p>
+        </div>
+
+        <div class="benefit">
+            <h3>⭐ Quality</h3>
+            <p>Built with durable materials.</p>
+        </div>
+
+        <div class="benefit">
+            <h3>💰 Value</h3>
+            <p>Affordable without sacrificing quality.</p>
+        </div>
+
+    </div>
+
+</section>
     </main>
+
+    <footer>
+
+    <div class="footer-container">
+
+        <div class="footer-section">
+            <a href="index.html"><h3>TipToe Soles</h3></a>
+            <p>Comfort Redefined.</p>
+            <p>Quality footwear built for every journey.</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <a href="aboutus.html">About Us</a>
+            <a href="products.html">Products</a>
+            <a href="men.html">Men</a>
+            <a href="women.html">Women</a>
+            <a href="sale.html">Sale</a>
+        </div>
+
+        <div class="footer-section">
+            <h3>Customer Service</h3>
+            <a href="contact.html">Contact Us</a>
+            <a href="#">Returns Policy</a>
+            <a href="#">Shipping Information</a>
+        </div>
+
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+
+            <a href="#">
+                <i class="fa fa-instagram"></i> Instagram
+            </a>
+
+            <a href="#">
+                <i class="fa fa-facebook"></i> Facebook
+            </a>
+
+            <a href="#">
+                <i class="fa fa-twitter"></i> X / Twitter
+            </a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 TipToe Soles. All rights reserved.</p>
+    </div>
+
+</footer>
 </body>
+
+    
 </html>
